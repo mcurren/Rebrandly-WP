@@ -1,0 +1,30 @@
+#sbrb_short_url_metabox {}
+
+/* slug input field */
+#sbrb_short_url_metabox label {
+	vertical-align: text-bottom;
+	font-size: 14px;
+}
+#sbrb_short_url_metabox #sbrb_rebrandly_slug {
+	padding: 0 0 1px 1px;
+  margin: 0;
+	border: 0;
+	border-bottom: 1px dotted #ccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 14px;
+  color: #121212;
+}
+#sbrb_short_url_metabox #sbrb_rebrandly_slug:focus {
+	border: 1px solid #ddd;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+  background-color: #fff;
+  color: #32373c;
+  outline: 0;
+  -webkit-transition: 50ms border-color ease-in-out;
+  transition: 50ms border-color ease-in-out;
+  margin: 1px;
+  padding: 3px 5px;
+  font-size: 14px;
+}
